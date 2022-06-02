@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".AboutApps">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="16dp"
+            android:gravity="center_horizontal"
+            android:text="About Apps"
+            android:textColor="@color/teal_700"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/logo" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Tentang Aplikasi"
+            android:textColor="#000000" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvAbout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Aplikasi dibuat untuk memenuhi tugas akhir"
+            android:textColor="#000000" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvAbout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:text="mata Kuliah Pengembangan Aplikasi Mobile"
+            android:textColor="#000000" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Fungsi Aplikasi"
+            android:textColor="#000000" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvAbout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Aplikasi ini menggunakan Database realtime Firebase, karena Database diakses secara online, maka aplikasi meminta izin akses internet."
+            android:textColor="#000000" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvAbout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Untuk kebutuhan kencan, aplikasi dapat menentukan secara random makanan, minuman dan lokasi jalan. Dengan begitu aplikasi ini dapat meminimalisir keributan pasangan yang selalu sulit dalam menentukan keputusan."
+            android:textColor="#000000" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvAbout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Aplikasi Bucin Smart adalah aplikasi terbaik untuk para muda mudi yang dimabuk asmara"
+            android:textColor="#000000" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvAbout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Bagi yang ingin mengembangkan aplikasi ini, source code program sudah saya upload di akun github pribadi saya"
+            android:textColor="#000000" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvAbout8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="github.com/poulpen"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "423692465030",
+    "project_id": "bucin-smart",
+    "storage_bucket": "bucin-smart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423692465030:android:ef2ec819f136c6d2b47207",
+        "android_client_info": {
+          "package_name": "com.poulpen.bucinsmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423692465030-cuo86ugikqnfgp8gd9o6hlhf6dcju9lq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0734s5rfv8zZsIREF_WMqOIIHmeYdTx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423692465030-cuo86ugikqnfgp8gd9o6hlhf6dcju9lq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
